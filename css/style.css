@@ -1,0 +1,260 @@
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Navigation */
+
+.navbar {
+    background-color: #00ba7f;
+}
+
+.navbar.navbar-light .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-item {
+    padding: 0 10px;
+}
+
+.navbar .navbar-toggler {
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.navbar .fa-shopping-cart {
+    padding-right: 5px;
+}
+
+.navbar .language {
+    border-left: 1px solid #1ec28e;
+    display: flex;
+}
+
+.navbar .language img {
+    padding: 0 5px;
+}
+
+.navbar .language-btn {
+    background-color: inherit;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+/* Main container */
+
+.container-main {
+    background-image: url(../img/main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container-main .container-main--header {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    padding: 150px 0;
+}
+
+/* Form */
+
+.container-form {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container-form .col-form {
+    padding: 10px;
+}
+
+.container-form input {
+    padding: 5px;
+    outline: none;
+    border: 1px solid #c9d2cf;
+}
+
+.container-form .form-date,
+.container-form .form-quantity {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #c9d2cf;
+}
+
+.container-form .form-date input,
+.container-form .form-quantity input {
+    border: none;
+}
+
+.container-form .form-date input {
+    width: 90px;
+}
+
+.container-form .form-quantity input {
+    width: 40px;
+}
+
+.container-form .form-date img,
+.container-form .form-quantity img {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-left: 1px solid #c9d2cf;
+    cursor: pointer;
+}
+
+.container-form .col-form-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.container-form .form-btn {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.container-form .form-search-btn {
+    background: #00ba7f;
+    ;
+    color: #fff;
+    height: 100%;
+    padding: 20px 10px;
+}
+
+.container-form .form-add-btn img {
+    padding: 0 5px;
+}
+
+/* Media queries */
+
+@media(max-width: 1200px) {
+    .container-form .form-row {
+        width: 100%;
+    }
+    .container-form .form-search-btn {
+        width: 100%;
+    }
+    .container-form .col-form {
+        width: 33.33%;
+    }
+    .container-form input {
+        width: 100%;
+    }
+    .container-form .form-date input {
+        width: 100%;
+    }
+    .container-form .form-quantity input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-form .col-form {
+        width: 100%;
+    }
+    .container-form .col-form-btn {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+/* Container features */
+
+.container-features figure {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-features figcaption {
+    padding: 0 20px;
+    text-align: left;
+}
+
+.container-features .col-features {
+    padding: 82px;
+    border: 1px solid #f4f6f6;
+}
+
+/* Info */
+
+.container-footer,
+.container-info {
+    padding: 80px 0;
+}
+
+.container-info {
+    background-color: #f4f6f6;
+}
+
+.container-info .container-info--header,
+.container-footer .footer--header {
+    padding: 20px 0;
+}
+
+.container-info .container-info--header__span {
+    color: #00ba7f;
+}
+
+/* Footer */
+
+.container-footer p {
+    color: #859492;
+}
+
+.container-footer .footer-logo {
+    padding: 20px 0 40px 0;
+    transition: 0.5s;
+}
+
+.container-footer .footer-logo:hover {
+    transform: rotate(360deg);
+}
+
+.container-footer .footer--social-media {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.container-footer .fa-facebook {
+    background-color: #3a5897;
+}
+
+.container-footer .fa-twitter {
+    background-color: #25a6d1;
+}
+
+.container-footer .fa-linkedin {
+    background-color: #0e76a8;
+}
+
+.container-footer .footer-copyright {
+    margin: 0;
+}
